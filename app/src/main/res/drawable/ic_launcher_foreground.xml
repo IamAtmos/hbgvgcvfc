@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left page of book -->
+    <path
+        android:fillColor="#1C1C1C"
+        android:pathData="M 14,24 L 51,19 L 51,87 L 14,90 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#69FF47"
+        android:strokeWidth="0.9"
+        android:strokeAlpha="0.45"
+        android:pathData="M 14,24 L 51,19 L 51,87 L 14,90 Z" />
+    <!-- Left page lines -->
+    <path android:strokeColor="#69FF47" android:strokeWidth="0.4" android:strokeAlpha="0.18"
+        android:fillColor="#00000000" android:pathData="M 20,35 L 47,33"/>
+    <path android:strokeColor="#69FF47" android:strokeWidth="0.4" android:strokeAlpha="0.18"
+        android:fillColor="#00000000" android:pathData="M 20,42 L 47,40"/>
+    <path android:strokeColor="#69FF47" android:strokeWidth="0.4" android:strokeAlpha="0.18"
+        android:fillColor="#00000000" android:pathData="M 20,49 L 47,47"/>
+    <path android:strokeColor="#69FF47" android:strokeWidth="0.4" android:strokeAlpha="0.18"
+        android:fillColor="#00000000" android:pathData="M 20,56 L 47,54"/>
+
+    <!-- Right page of book -->
+    <path
+        android:fillColor="#1C1C1C"
+        android:pathData="M 57,19 L 94,24 L 94,90 L 57,87 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#69FF47"
+        android:strokeWidth="0.9"
+        android:strokeAlpha="0.45"
+        android:pathData="M 57,19 L 94,24 L 94,90 L 57,87 Z" />
+    <!-- Right page lines -->
+    <path android:strokeColor="#69FF47" android:strokeWidth="0.4" android:strokeAlpha="0.18"
+        android:fillColor="#00000000" android:pathData="M 61,33 L 88,35"/>
+    <path android:strokeColor="#69FF47" android:strokeWidth="0.4" android:strokeAlpha="0.18"
+        android:fillColor="#00000000" android:pathData="M 61,40 L 88,42"/>
+    <path android:strokeColor="#69FF47" android:strokeWidth="0.4" android:strokeAlpha="0.18"
+        android:fillColor="#00000000" android:pathData="M 61,47 L 88,49"/>
+    <path android:strokeColor="#69FF47" android:strokeWidth="0.4" android:strokeAlpha="0.18"
+        android:fillColor="#00000000" android:pathData="M 61,54 L 88,56"/>
+
+    <!-- Bottom pages fan (left) -->
+    <path android:fillColor="#232323" android:pathData="M 16,88 L 51,85 L 51,88 L 16,92 Z"/>
+    <path android:fillColor="#1A1A1A" android:pathData="M 16,91 L 51,88 L 51,91 L 16,95 Z"/>
+
+    <!-- Bottom pages fan (right) -->
+    <path android:fillColor="#232323" android:pathData="M 57,85 L 92,88 L 92,92 L 57,88 Z"/>
+    <path android:fillColor="#1A1A1A" android:pathData="M 57,88 L 92,91 L 92,95 L 57,91 Z"/>
+
+    <!-- River glow - outermost (widest, most transparent) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#69FF47"
+        android:strokeWidth="11"
+        android:strokeAlpha="0.06"
+        android:pathData="M 54,96 C 46,82 62,70 50,57 C 40,46 62,34 54,22 C 52,17 54,13 54,13" />
+
+    <!-- River glow - mid -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#69FF47"
+        android:strokeWidth="7"
+        android:strokeAlpha="0.15"
+        android:pathData="M 54,96 C 46,82 62,70 50,57 C 40,46 62,34 54,22 C 52,17 54,13 54,13" />
+
+    <!-- River glow - inner -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#69FF47"
+        android:strokeWidth="4"
+        android:strokeAlpha="0.35"
+        android:pathData="M 54,96 C 46,82 62,70 50,57 C 40,46 62,34 54,22 C 52,17 54,13 54,13" />
+
+    <!-- River core -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#69FF47"
+        android:strokeWidth="2.5"
+        android:strokeAlpha="0.95"
+        android:strokeLineCap="round"
+        android:pathData="M 54,96 C 46,82 62,70 50,57 C 40,46 62,34 54,22 C 52,17 54,13 54,13" />
+
+</vector>
